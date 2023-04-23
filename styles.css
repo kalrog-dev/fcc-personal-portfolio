@@ -74,7 +74,6 @@ h2 {
     width: 90%;
     max-width: 1440px;
     margin-inline: auto;
-    height: 100%;
 }
 
 .header-main {
@@ -89,6 +88,15 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding-block: var(--spacer-md);
+}
+
+#welcome-section .container {
+    height: 100%;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
 }
 
 #navbar ul {
